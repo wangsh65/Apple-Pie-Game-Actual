@@ -13,7 +13,7 @@
 		D7C12C9D29991A3A00A8D6B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C12C9B29991A3A00A8D6B4 /* Main.storyboard */; };
 		D7C12C9F29991A3C00A8D6B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7C12C9E29991A3C00A8D6B4 /* Assets.xcassets */; };
 		D7C12CA229991A3C00A8D6B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C12CA029991A3C00A8D6B4 /* LaunchScreen.storyboard */; };
-		D7C12CAA2999417000A8D6B4 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C12CA92999417000A8D6B4 /* Game.swift */; };
+		E7952F122BB738A200537868 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7952F112BB738A200537868 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		D7C12C9E29991A3C00A8D6B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7C12CA129991A3C00A8D6B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7C12CA329991A3C00A8D6B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7C12CA92999417000A8D6B4 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		E7952F112BB738A200537868 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +58,10 @@
 		D7C12C9429991A3A00A8D6B4 /* Apple Pie */ = {
 			isa = PBXGroup;
 			children = (
+				E7952F112BB738A200537868 /* Game.swift */,
 				D7C12C9529991A3A00A8D6B4 /* AppDelegate.swift */,
 				D7C12C9729991A3A00A8D6B4 /* SceneDelegate.swift */,
 				D7C12C9929991A3A00A8D6B4 /* ViewController.swift */,
-				D7C12CA92999417000A8D6B4 /* Game.swift */,
 				D7C12C9B29991A3A00A8D6B4 /* Main.storyboard */,
 				D7C12C9E29991A3C00A8D6B4 /* Assets.xcassets */,
 				D7C12CA029991A3C00A8D6B4 /* LaunchScreen.storyboard */,
@@ -144,7 +144,7 @@
 				D7C12C9A29991A3A00A8D6B4 /* ViewController.swift in Sources */,
 				D7C12C9629991A3A00A8D6B4 /* AppDelegate.swift in Sources */,
 				D7C12C9829991A3A00A8D6B4 /* SceneDelegate.swift in Sources */,
-				D7C12CAA2999417000A8D6B4 /* Game.swift in Sources */,
+				E7952F122BB738A200537868 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

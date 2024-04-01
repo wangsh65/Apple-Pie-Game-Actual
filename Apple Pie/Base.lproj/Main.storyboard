@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad10_2" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -38,138 +39,109 @@
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QcA-Li-keT"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KOn-ep-b9b"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ca-eZ-IJK">
                                                         <rect key="frame" x="55" y="0.0" width="50" height="50"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="2Ca-eZ-IJK" secondAttribute="height" id="NTi-jM-jMy"/>
+                                                            <constraint firstAttribute="width" secondItem="2Ca-eZ-IJK" secondAttribute="height" id="taE-Ro-B1W"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="W">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YH1-c5-IA5"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dW-ss-eut">
                                                         <rect key="frame" x="110" y="0.0" width="50" height="50"/>
                                                         <constraints>
+                                                            <constraint firstAttribute="width" secondItem="0dW-ss-eut" secondAttribute="height" id="Dy4-MV-07y"/>
                                                             <constraint firstAttribute="width" secondItem="0dW-ss-eut" secondAttribute="height" id="y83-oA-Hx7"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="E">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eay-gK-aCh"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lC6-Co-hXF">
                                                         <rect key="frame" x="165" y="0.0" width="50" height="50"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="lC6-Co-hXF" secondAttribute="height" id="FTT-bE-pSy"/>
+                                                            <constraint firstAttribute="width" secondItem="lC6-Co-hXF" secondAttribute="height" id="OTh-i4-c0h"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="R">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="enb-mO-Ija"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CEe-iO-m5M">
                                                         <rect key="frame" x="220" y="0.0" width="50" height="50"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="CEe-iO-m5M" secondAttribute="height" id="NnK-0a-grh"/>
+                                                            <constraint firstAttribute="width" secondItem="CEe-iO-m5M" secondAttribute="height" id="bGW-OO-Lch"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="T">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r5J-yx-XzV"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fU-bg-lHj">
                                                         <rect key="frame" x="275" y="0.0" width="50" height="50"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="1fU-bg-lHj" secondAttribute="height" id="SGi-lu-uFN"/>
+                                                            <constraint firstAttribute="width" secondItem="1fU-bg-lHj" secondAttribute="height" id="xY0-Ga-jZH"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Y">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tFT-nF-rNn"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kca-zX-VlL">
                                                         <rect key="frame" x="330" y="0.0" width="50" height="50"/>
                                                         <constraints>
+                                                            <constraint firstAttribute="width" secondItem="Kca-zX-VlL" secondAttribute="height" id="A91-ZF-ceb"/>
                                                             <constraint firstAttribute="width" secondItem="Kca-zX-VlL" secondAttribute="height" id="G7F-yh-Rw4"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="U">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fLE-aV-Qni"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kV-gX-pBu">
                                                         <rect key="frame" x="385" y="0.0" width="50" height="50"/>
                                                         <constraints>
+                                                            <constraint firstAttribute="width" secondItem="0kV-gX-pBu" secondAttribute="height" id="nFF-89-Nrn"/>
                                                             <constraint firstAttribute="width" secondItem="0kV-gX-pBu" secondAttribute="height" id="rE8-hr-llo"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="I">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AMv-SU-3Pn"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CxO-37-1QF">
                                                         <rect key="frame" x="440" y="0.0" width="50" height="50"/>
                                                         <constraints>
+                                                            <constraint firstAttribute="width" secondItem="CxO-37-1QF" secondAttribute="height" id="kTk-Uc-fDk"/>
                                                             <constraint firstAttribute="width" secondItem="CxO-37-1QF" secondAttribute="height" id="lHL-nT-x8B"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="O">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x4J-Z5-YaT"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bw4-Lg-LU4">
                                                         <rect key="frame" x="495" y="0.0" width="50" height="50"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="Bw4-Lg-LU4" secondAttribute="height" id="4bP-Bc-Kkc"/>
+                                                            <constraint firstAttribute="width" secondItem="Bw4-Lg-LU4" secondAttribute="height" id="IDc-xg-Oyl"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="P">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XdP-sJ-knQ"/>
-                                                        </connections>
                                                     </button>
                                                 </subviews>
-                                                <constraints>
-                                                    <constraint firstItem="Kca-zX-VlL" firstAttribute="width" secondItem="Kca-zX-VlL" secondAttribute="height" id="A91-ZF-ceb"/>
-                                                    <constraint firstItem="0dW-ss-eut" firstAttribute="width" secondItem="0dW-ss-eut" secondAttribute="height" id="Dy4-MV-07y"/>
-                                                    <constraint firstItem="Bw4-Lg-LU4" firstAttribute="width" secondItem="Bw4-Lg-LU4" secondAttribute="height" id="IDc-xg-Oyl"/>
-                                                    <constraint firstItem="lC6-Co-hXF" firstAttribute="width" secondItem="lC6-Co-hXF" secondAttribute="height" id="OTh-i4-c0h"/>
-                                                    <constraint firstItem="CEe-iO-m5M" firstAttribute="width" secondItem="CEe-iO-m5M" secondAttribute="height" id="bGW-OO-Lch"/>
-                                                    <constraint firstItem="CxO-37-1QF" firstAttribute="width" secondItem="CxO-37-1QF" secondAttribute="height" id="kTk-Uc-fDk"/>
-                                                    <constraint firstItem="0kV-gX-pBu" firstAttribute="width" secondItem="0kV-gX-pBu" secondAttribute="height" id="nFF-89-Nrn"/>
-                                                    <constraint firstItem="2Ca-eZ-IJK" firstAttribute="width" secondItem="2Ca-eZ-IJK" secondAttribute="height" id="taE-Ro-B1W"/>
-                                                    <constraint firstItem="1fU-bg-lHj" firstAttribute="width" secondItem="1fU-bg-lHj" secondAttribute="height" id="xY0-Ga-jZH"/>
-                                                </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="cao-rw-YEh">
                                                 <rect key="frame" x="295" y="55" width="490" height="50"/>
@@ -183,125 +155,99 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="A">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hyN-Xv-pw6"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ufu-lD-Pnx">
                                                         <rect key="frame" x="55" y="0.0" width="50" height="50"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="Ufu-lD-Pnx" secondAttribute="height" id="HVH-6s-eq4"/>
+                                                            <constraint firstAttribute="width" secondItem="Ufu-lD-Pnx" secondAttribute="height" id="SGy-xa-9Tf"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="S">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rYS-di-bLg"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PpX-N2-gHU">
                                                         <rect key="frame" x="110" y="0.0" width="50" height="50"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="PpX-N2-gHU" secondAttribute="height" id="fD2-ih-cjC"/>
+                                                            <constraint firstAttribute="width" secondItem="PpX-N2-gHU" secondAttribute="height" id="maZ-J9-lUx"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="D">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u9B-Rn-iR5"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nSW-aK-SQ4">
                                                         <rect key="frame" x="165" y="0.0" width="50" height="50"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="nSW-aK-SQ4" secondAttribute="height" id="ApZ-8q-XqV"/>
+                                                            <constraint firstAttribute="width" secondItem="nSW-aK-SQ4" secondAttribute="height" id="UgT-aK-bwX"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="F">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vQJ-rQ-mGD"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5R-Ub-JYj">
                                                         <rect key="frame" x="220" y="0.0" width="50" height="50"/>
                                                         <constraints>
+                                                            <constraint firstAttribute="width" secondItem="d5R-Ub-JYj" secondAttribute="height" id="HWu-vF-l8j"/>
                                                             <constraint firstAttribute="width" secondItem="d5R-Ub-JYj" secondAttribute="height" id="eEB-cr-s08"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="G">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v70-si-GAf"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6KB-Lv-c9v">
                                                         <rect key="frame" x="275" y="0.0" width="50" height="50"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="6KB-Lv-c9v" secondAttribute="height" id="2lb-ju-7df"/>
+                                                            <constraint firstAttribute="width" secondItem="6KB-Lv-c9v" secondAttribute="height" id="7Zx-Mf-iRP"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="H">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CMD-Td-DFF"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cDq-7H-KGe">
                                                         <rect key="frame" x="330" y="0.0" width="50" height="50"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="cDq-7H-KGe" secondAttribute="height" id="7aC-Lz-X9D"/>
+                                                            <constraint firstAttribute="width" secondItem="cDq-7H-KGe" secondAttribute="height" id="NEF-dj-Gqf"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="J">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k06-zZ-5m3"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UY7-tC-aei">
                                                         <rect key="frame" x="385" y="0.0" width="50" height="50"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="UY7-tC-aei" secondAttribute="height" id="G5c-jx-Gb7"/>
+                                                            <constraint firstAttribute="width" secondItem="UY7-tC-aei" secondAttribute="height" id="T7u-Iw-cNC"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="K">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
                                                         <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U3g-7p-mJa"/>
+                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hbm-RF-nEx"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r8D-95-fsT">
                                                         <rect key="frame" x="440" y="0.0" width="50" height="50"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="r8D-95-fsT" secondAttribute="height" id="Rzd-lf-zXp"/>
+                                                            <constraint firstAttribute="width" secondItem="r8D-95-fsT" secondAttribute="height" id="vrJ-JS-tJf"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="L">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8cQ-mr-anZ"/>
-                                                        </connections>
                                                     </button>
                                                 </subviews>
-                                                <constraints>
-                                                    <constraint firstItem="6KB-Lv-c9v" firstAttribute="width" secondItem="6KB-Lv-c9v" secondAttribute="height" id="7Zx-Mf-iRP"/>
-                                                    <constraint firstItem="d5R-Ub-JYj" firstAttribute="width" secondItem="d5R-Ub-JYj" secondAttribute="height" id="HWu-vF-l8j"/>
-                                                    <constraint firstItem="cDq-7H-KGe" firstAttribute="width" secondItem="cDq-7H-KGe" secondAttribute="height" id="NEF-dj-Gqf"/>
-                                                    <constraint firstItem="Ufu-lD-Pnx" firstAttribute="width" secondItem="Ufu-lD-Pnx" secondAttribute="height" id="SGy-xa-9Tf"/>
-                                                    <constraint firstItem="UY7-tC-aei" firstAttribute="width" secondItem="UY7-tC-aei" secondAttribute="height" id="T7u-Iw-cNC"/>
-                                                    <constraint firstItem="nSW-aK-SQ4" firstAttribute="width" secondItem="nSW-aK-SQ4" secondAttribute="height" id="UgT-aK-bwX"/>
-                                                    <constraint firstItem="PpX-N2-gHU" firstAttribute="width" secondItem="PpX-N2-gHU" secondAttribute="height" id="maZ-J9-lUx"/>
-                                                    <constraint firstItem="r8D-95-fsT" firstAttribute="width" secondItem="r8D-95-fsT" secondAttribute="height" id="vrJ-JS-tJf"/>
-                                                </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="7bb-Mo-Jk5">
                                                 <rect key="frame" x="350" y="110" width="380" height="50"/>
@@ -315,97 +261,74 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="Z">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zal-IB-R9H"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TT1-VV-aw7">
                                                         <rect key="frame" x="55" y="0.0" width="50" height="50"/>
                                                         <constraints>
+                                                            <constraint firstAttribute="width" secondItem="TT1-VV-aw7" secondAttribute="height" id="Zqe-HH-E5T"/>
                                                             <constraint firstAttribute="width" secondItem="TT1-VV-aw7" secondAttribute="height" id="gd9-HD-PfJ"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="X">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J4I-gN-zdz"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GgQ-AB-rUW">
                                                         <rect key="frame" x="110" y="0.0" width="50" height="50"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="GgQ-AB-rUW" secondAttribute="height" id="F30-ch-v5A"/>
+                                                            <constraint firstAttribute="width" secondItem="GgQ-AB-rUW" secondAttribute="height" id="wOu-Bn-dPT"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="C">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fWm-Qy-vVW"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AJj-No-AIK">
                                                         <rect key="frame" x="165" y="0.0" width="50" height="50"/>
                                                         <constraints>
+                                                            <constraint firstAttribute="width" secondItem="AJj-No-AIK" secondAttribute="height" id="99v-RC-6IV"/>
                                                             <constraint firstAttribute="width" secondItem="AJj-No-AIK" secondAttribute="height" id="SSi-x8-f1z"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="V">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iyd-hO-h8f"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7T-Gf-Urv">
                                                         <rect key="frame" x="220" y="0.0" width="50" height="50"/>
                                                         <constraints>
+                                                            <constraint firstAttribute="width" secondItem="c7T-Gf-Urv" secondAttribute="height" id="8Hm-6I-hNI"/>
                                                             <constraint firstAttribute="width" secondItem="c7T-Gf-Urv" secondAttribute="height" id="IZF-Ge-6NY"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="B">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XYe-Qy-Pbc"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nlg-lG-cOI">
                                                         <rect key="frame" x="275" y="0.0" width="50" height="50"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="Nlg-lG-cOI" secondAttribute="height" id="7EO-0N-AVg"/>
+                                                            <constraint firstAttribute="width" secondItem="Nlg-lG-cOI" secondAttribute="height" id="IHa-oF-2bK"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="N">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mJJ-bj-BNa"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTa-AO-7u5">
                                                         <rect key="frame" x="330" y="0.0" width="50" height="50"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="BTa-AO-7u5" secondAttribute="height" id="LIX-ad-Dzj"/>
+                                                            <constraint firstAttribute="width" secondItem="BTa-AO-7u5" secondAttribute="height" id="MDE-r3-YPr"/>
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="M">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                         </buttonConfiguration>
-                                                        <connections>
-                                                            <action selector="letterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IeV-xD-PZu"/>
-                                                        </connections>
                                                     </button>
                                                 </subviews>
-                                                <constraints>
-                                                    <constraint firstItem="c7T-Gf-Urv" firstAttribute="width" secondItem="c7T-Gf-Urv" secondAttribute="height" id="8Hm-6I-hNI"/>
-                                                    <constraint firstItem="AJj-No-AIK" firstAttribute="width" secondItem="AJj-No-AIK" secondAttribute="height" id="99v-RC-6IV"/>
-                                                    <constraint firstItem="Nlg-lG-cOI" firstAttribute="width" secondItem="Nlg-lG-cOI" secondAttribute="height" id="IHa-oF-2bK"/>
-                                                    <constraint firstItem="BTa-AO-7u5" firstAttribute="width" secondItem="BTa-AO-7u5" secondAttribute="height" id="MDE-r3-YPr"/>
-                                                    <constraint firstItem="TT1-VV-aw7" firstAttribute="width" secondItem="TT1-VV-aw7" secondAttribute="height" id="Zqe-HH-E5T"/>
-                                                    <constraint firstItem="GgQ-AB-rUW" firstAttribute="width" secondItem="GgQ-AB-rUW" secondAttribute="height" id="wOu-Bn-dPT"/>
-                                                </constraints>
                                             </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="buo-dR-UaN">
                                                 <rect key="frame" x="504.5" y="165" width="71" height="50"/>
@@ -434,35 +357,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="correctWordLabel" destination="buo-dR-UaN" id="I9F-Sc-4q6"/>
-                        <outlet property="scoreLabel" destination="cAt-vl-VZH" id="toh-nS-5ph"/>
-                        <outlet property="treeImageView" destination="cwK-0p-FV6" id="rEP-Yo-UlQ"/>
-                        <outletCollection property="letterButtons" destination="CHa-SW-XNv" collectionClass="NSMutableArray" id="6xj-MV-9jj"/>
-                        <outletCollection property="letterButtons" destination="2Ca-eZ-IJK" collectionClass="NSMutableArray" id="b20-CW-Eqc"/>
-                        <outletCollection property="letterButtons" destination="0dW-ss-eut" collectionClass="NSMutableArray" id="JNc-Ze-LF8"/>
-                        <outletCollection property="letterButtons" destination="lC6-Co-hXF" collectionClass="NSMutableArray" id="AuC-nn-zRa"/>
-                        <outletCollection property="letterButtons" destination="CEe-iO-m5M" collectionClass="NSMutableArray" id="v9f-am-UPw"/>
-                        <outletCollection property="letterButtons" destination="1fU-bg-lHj" collectionClass="NSMutableArray" id="LDc-fJ-NMI"/>
-                        <outletCollection property="letterButtons" destination="Kca-zX-VlL" collectionClass="NSMutableArray" id="Fid-jT-ocT"/>
-                        <outletCollection property="letterButtons" destination="0kV-gX-pBu" collectionClass="NSMutableArray" id="B9t-40-LVo"/>
-                        <outletCollection property="letterButtons" destination="CxO-37-1QF" collectionClass="NSMutableArray" id="fIc-A2-Upz"/>
-                        <outletCollection property="letterButtons" destination="Bw4-Lg-LU4" collectionClass="NSMutableArray" id="lNx-fP-e66"/>
-                        <outletCollection property="letterButtons" destination="r8D-95-fsT" collectionClass="NSMutableArray" id="HJU-Zu-A5K"/>
-                        <outletCollection property="letterButtons" destination="UY7-tC-aei" collectionClass="NSMutableArray" id="kNf-tP-HGH"/>
-                        <outletCollection property="letterButtons" destination="cDq-7H-KGe" collectionClass="NSMutableArray" id="BIt-H0-0gu"/>
-                        <outletCollection property="letterButtons" destination="6KB-Lv-c9v" collectionClass="NSMutableArray" id="MbR-sa-Qoa"/>
-                        <outletCollection property="letterButtons" destination="BTa-AO-7u5" collectionClass="NSMutableArray" id="1QF-9o-JXW"/>
-                        <outletCollection property="letterButtons" destination="Nlg-lG-cOI" collectionClass="NSMutableArray" id="2Dn-QX-fCa"/>
-                        <outletCollection property="letterButtons" destination="c7T-Gf-Urv" collectionClass="NSMutableArray" id="PVM-HK-EcJ"/>
-                        <outletCollection property="letterButtons" destination="d5R-Ub-JYj" collectionClass="NSMutableArray" id="Cdz-vZ-Z1r"/>
-                        <outletCollection property="letterButtons" destination="AJj-No-AIK" collectionClass="NSMutableArray" id="NtH-Br-lKQ"/>
-                        <outletCollection property="letterButtons" destination="nSW-aK-SQ4" collectionClass="NSMutableArray" id="Aad-Vz-kYa"/>
-                        <outletCollection property="letterButtons" destination="GgQ-AB-rUW" collectionClass="NSMutableArray" id="qLF-bh-D1T"/>
-                        <outletCollection property="letterButtons" destination="PpX-N2-gHU" collectionClass="NSMutableArray" id="nR9-BX-y2S"/>
-                        <outletCollection property="letterButtons" destination="TT1-VV-aw7" collectionClass="NSMutableArray" id="64j-oo-FYu"/>
-                        <outletCollection property="letterButtons" destination="Ufu-lD-Pnx" collectionClass="NSMutableArray" id="tLa-w0-ieN"/>
-                        <outletCollection property="letterButtons" destination="vbq-6z-xeM" collectionClass="NSMutableArray" id="niN-mD-BgS"/>
-                        <outletCollection property="letterButtons" destination="5cz-ij-Zb3" collectionClass="NSMutableArray" id="uMV-Fq-1NL"/>
+                        <outlet property="scoreLabel" destination="cAt-vl-VZH" id="a9J-x2-Kjl"/>
+                        <outlet property="treeImageView" destination="cwK-0p-FV6" id="vNw-m5-5UQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
