@@ -11,5 +11,6 @@ import Foundation
 struct Game {
     var word: String
     var incorrectMovesRemaining: Int
+    var guessedLetters: [Character]
 }
 

@@ -35,6 +35,7 @@ class ViewController: UIViewController {
         scoreLabel.text = "Wins: \(totalWins), Losses: \(totalLosses)"
         treeImageView.image = UIImage(named: "Tree \(currentGame.incorrectMovesRemaining)")
     }
+    
  
    
     
